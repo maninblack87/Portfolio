@@ -1,0 +1,12 @@
+/* 머릿말 */
+#header {
+    height: 100px;
+}
+
+#header #title {
+    width: 200px;
+    height: 50px;
+
+    /* 위치 */
+    padding: 50px 0 0 0;
+}

@@ -1,0 +1,13 @@
+#contents {
+    /* 위치 */
+    padding: 50px;
+}
+
+#contents #portfolio_list>h2 {
+    /* 위치 : 아래 공백 */
+    margin-bottom: 20px;
+}
+
+#contents #portfolio_lis>ul>li {
+    margin-bottom: 50px;
+}

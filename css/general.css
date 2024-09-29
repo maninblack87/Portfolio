@@ -1,0 +1,41 @@
+/* 모든 스타일 */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    cursor: default;
+}
+
+/* body 스타일 */
+body {
+    width: 100%;
+}
+
+/* 모든 링크 스타일 */
+a {
+    color: #233;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+/* 모든 순서없는 리스트 스타일 */
+ul {
+    list-style: none;
+}
+
+/* ** 컨테이너 스타일 모음 ** */
+/* ** */
+
+#container1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#container1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* ** */
+/* ** 종료: 컨테이너 스타일 모음 ** */

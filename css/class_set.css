@@ -1,0 +1,18 @@
+/* 링크 관련 클래스 */
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    color: orange;
+}
+
+/* 텍스트 입력창 관련 클래스 */
+.typing {
+    cursor: text;
+}
+
+/* 버튼 관련 클래스 */
+.btn {
+    cursor: pointer;
+}
