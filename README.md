@@ -1,2 +1,2 @@
 # Portfolio
-https://maninblack87.github.io/Portfolio/
+https://maninblack87.github.io/Portfolio/index.html
