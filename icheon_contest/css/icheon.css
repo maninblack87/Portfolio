@@ -9,6 +9,14 @@ li {
     list-style: none;
 }
 
+/* 가상 선택자 */
+::selection {
+    background: none;
+    /* 선택된 텍스트의 배경 제거 */
+    color: inherit;
+    /* 텍스트 색상 유지 */
+}
+
 /* 배경 */
 #background {
     position: fixed;
@@ -56,8 +64,10 @@ li {
 
 #contents #arrows>#to_back {
     float: left;
+    cursor: pointer;
 }
 
 #contents #arrows>#to_next {
     float: right;
+    cursor: pointer;
 }

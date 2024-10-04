@@ -50,8 +50,15 @@ function toNext() {
 
 // 페이지 전환을 적용시키는 함수
 function updateDisplay() {
-    listItems.forEach(function (item) {
-        item.style.display = 'none';
-    });
-    listItems[nowIndex].style.display = 'block';
+
+    // 전환 시간을 준다
+    setTimeout(function () {
+        // 나머지 부분은 안보에게
+        listItems.forEach(function (item) {
+            item.style.display = 'none';
+        });
+        // 해당 부분만 보이게
+        listItems[nowIndex].style.display = 'block';
+    }, 100);
+
 }
