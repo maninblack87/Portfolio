@@ -7,9 +7,10 @@
     <title>전석환의 포트폴리오입니다</title>
     <!-- 스타일시트 -->
     <link rel="stylesheet" href="css/general.css"> <!--공통된 스타일-->
+    <link rel="stylesheet" href="css/class_set.css"> <!--(해당 페이지의)클래스 셋-->
     <link rel="stylesheet" href="css/header.css"> <!--머릿말 스타일-->
     <link rel="stylesheet" href="css/portfolio.css"> <!--포트폴리오 스타일-->
-    <link rel="stylesheet" href="css/class_set.css"> <!--클래스 셋-->
+    <link rel="stylesheet" href="css/contents_general.css"> <!--본문 전용 클래스 셋-->
 </head>
 
 <body class="">
@@ -36,25 +37,41 @@
     <!-- 본문 -->
     <div id="contents">
 
-        <div id="container1200">
+        <!-- 본문 1 -->
+        <div id="c1" class="contents_general">
 
-            <!-- 작품 목록 -->
-            <div id="portfolio_list">
+            <div id="container1200">
 
-                <h2>포트폴리오 목록</h2>
+                <div id="c1_box" class="contents_box">
+                    <h2><a class="link" href="hotel/index.html">[둘러보기]그랜드힐스턴호텔</a></h2>
+                    <p>전국장애인기능경기대회에서 사용한 코드 소스를 활용해서 디자인했습니다. 깔끔함과 고급스러운 느낌이 들도록 시도하고있습니다.</p>
+                    <p>
+                        ※원본은 php 형식이고 포트폴리오는 HTML 형식입니다. 백엔드가 구현되지 않으며 외형만 유지되어 있습니다.
+                    </p>
+                    <p>
+                        ※원본 주소: <a class="link"
+                            href="https://github.com/maninblack87/Hotel-Web-Design">https://github.com/maninblack87/Hotel-Web-Design</a>
+                    </p>
+                </div>
 
-                <ul>
-                    <li>
-                        <a class="link" href="hotel/index.html">[클릭]그랜드힐스턴호텔</a>
-                        <p>원본 주소: <a class="link"
-                                href="https://github.com/maninblack87/Hotel-Web-Design">https://github.com/maninblack87/Hotel-Web-Design</a>
-                        </p>
-                        <p>※원본은 php 형식이고 포트폴리오는 HTML 형식입니다</p>
-                    </li>
-                    <li>
-                        <a class="link" href="icheon_contest/index.html">[클릭]이천 가볼만한 곳 공모전</a>
-                    </li>
-                </ul>
+            </div>
+
+        </div>
+
+        <!-- 본문2 -->
+        <div id="c2" class="contents_general">
+
+            <div id="container1200">
+
+                <div id="c2_box" class="contents_box">
+                    <h2><a class="link" href="icheon_contest/index.html">[둘러보기]덕평자연휴게소</a></h2>
+                    <p>
+                        "이천시 가볼만한 곳 인스타그램으로 홍보하기" 공모전에서 "덕평자유휴게소"를 주제로 출품했습니다.
+                        덕평자유휴게소는 강원도를 찾는 수도권민들이 많이 방문하는 곳이며 공원과 다양한 관광 문화 시설을 누릴 수 있는 곳입니다.
+                        이 곳의 이러한 매력을 어필하면서 가능한 간략히 구성하여 컨텐츠 소모에 피로함을 최소화하려고 노력했습니다.
+                    </p>
+                </div>
+
             </div>
 
         </div>
