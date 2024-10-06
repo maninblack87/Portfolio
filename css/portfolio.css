@@ -29,9 +29,9 @@ a:hover {
 #c1 {
     /* 크기 */
     width: 100%;
-    height: 400px;
+    height: 500px;
     /* 배경 */
-    background: url('../img/bg_c1.jpg');
+    background: url('../img/bg_c1.jpg') center;
 }
 
 #c1_box {
@@ -52,7 +52,7 @@ a:hover {
     width: 100%;
     height: 500px;
     /* 배경 */
-    background: url('../img/bg_c2.jpg');
+    background: url('../img/bg_c2_2.jpg') center;
 }
 
 #c2_box {
@@ -62,7 +62,7 @@ a:hover {
     float: right;
     /* 배경 */
     background: rgb(255, 255, 255);
-    border: 5px solid orange;
+    border: 5px solid #14f352;
 }
 
 #c2_box a:hover {
